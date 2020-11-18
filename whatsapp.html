@@ -18,24 +18,35 @@
 
     <body onkeypress="return event.keyCode!=13">
         <h1>WhatsApp chat generator</h1>
-
+        <h2>Overview</h2>
         <p>
-            Note: phones must include the country prefix and have no spaces. An example is: 34602345123.
+            <strong>Note</strong>: phones must include the country prefix. Valid examples are:
+            <ul>
+              <li>34602345123</li>
+              <li>+34 602 345 123</li>
+            </ul>
         </p>
+        <br>
         <h2>Input data</h2>
         <form id="form" action="javascript:void(0);">
-            <label for="phone">Destinatary phone number</label>
-            <br>
-            <input id="phone" required>
-            <br><br>
-            <label for="selfPhone">Sender phone number (same as destinatary if unspecified)</label>
-            <br>
-            <input id="selfPhone">
-            <br><br>
-            <label for="convo" required>Enter chat (each represents a message)</label>
-            <br>
-            <textarea id="convo" name="convo" rows="10" cols="30" onkeydown="textareaEnter()"></textarea>
-            <br><br>
+            <div>
+                <label for="phone">Destinatary*</label>
+                <br>
+                <input id="phone" placeholder="Enter number" onkeyup="updateSenderPlaceholder()" required>
+                <br><br>
+            </div>
+            <div title="Same as destinatary if unspecified">
+                <label for="selfPhone">Sender</label>
+                <br>
+                <input id="selfPhone" placeholder="Enter number">
+                <br><br>
+            </div>
+            <div title="The first message will be sent to the destination number, the second to the sender, the third to dest again, and so on.">
+                <label for="convo" required >Messages* (each line represents one)</label>
+                <br>
+                <textarea id="convo" name="convo" rows="10" cols="30" onkeydown="textareaEnter()"></textarea>
+                <br><br>
+            </div>
             <br>
             <input type="submit" value="Create link">
         </form>
