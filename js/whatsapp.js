@@ -1,82 +1,60 @@
-/*
- * Most code here is ugly, not like you.
- *
- */
+// Main js file for the whatsapp link app
 
-const baseURL = "https://wa.me"
+var encode = (p, t) => btoa(`${p}|${t}`)
 
-function encode(s) {
-    var a = []
-	for (var n = 0, l = s.length; n < l; n ++) {
-        var c = s.charAt(n)
-        if (isEncodeable(c)) {
-            c = s.charCodeAt(n)
-            var h = Number(c).toString(16)
-            h != 'a' && a.push('%' + h)
-            console.debug(c + ' = ' + h)
-        } else {
-            a.push(c)
+function normalizePhone(phone) {
+    if (phone !== undefined) {
+        if (phone[0] != 3) {
+            phone = "34" + phone // Defaults to Spain
         }
+        return phone.replace(/[\+ \s]/g, '')
     }
-    
-	return a.join('')
 }
 
-function isEncodeable(c) {
-  switch (c) {
-    case 'á': return false
-    case 'é': return false
-    case 'í': return false
-    case 'ó': return false
-    case 'ú': return false
-    case 'ñ': return false
-    case 'ç': return false
-  }
-  return true
+function initBody() {
+    newMessageInput()
 }
 
-function updateSenderPlaceholder() {
-    var phone = document.getElementById("phone").value
-      , senderEl = document.getElementById("selfPhone")
-
-    senderEl.placeholder = phone ? phone : "Enter number"
-}
-
-function normalizePhones(phones) {
-    ret = []
-    phones.forEach(p => {
-        ret.push(p.replace(/[\+ \s]/g, ''))
-    })
-    return ret
-}
-
-function generate() {
-    var messages = document.getElementById("convo").value.split("\n")
-        , phone = document.getElementById("phone").value
-        , selfPhone = document.getElementById("selfPhone").value
-        , n = messages.length
-        , url = ''
-    
-    if (selfPhone === undefined || selfPhone === "") {
-        selfPhone = phone
-    }
-
-    var phones = normalizePhones([phone, selfPhone])
-    
-    console.debug(messages)
-    console.debug(phone)
-    console.debug(selfPhone)
-    messages.reverse().forEach((m, i) => {
-        if (url != "" ) {
-            url = ` (${url})`
-        }
-        if (m != "") {
-            url = baseURL + "/" + phones[(n - 1 - i) % 2] + '?text=' + encode(m + url)
+function newMessageInput() {
+    $.ajax({
+        type: "GET",   
+        url: "views/message.html",   
+        async: true,
+        success: text => {
+            $("#inputs").append(text)
         }
     })
-    console.debug(url)
-    document.getElementById("resultBox").style.visibility = 'visible'
-    document.getElementById("result").innerHTML = `<a href="${url}">${url}</a>`
+}
+
+function rmMessageInput() {
+    var c = document.querySelector("#inputs").children
+      , l = c.length
+
+    l > 1 && c[l - 1].remove()
+}
+
+function generateEncodedWAPath(e) {
+    var phone = $(e).find(".phone input").val()
+      , text  = $(e).find(".text input").val()
+    return encode(normalizePhone(phone), text)
+}
+
+function showLink(url) {
+    if (url === undefined || url === "") alert("Error generating link. Take a second and breathe.")
+
+    console.log("Showing url: " + url)
+    $("#result").show()
+    $("#resultLink").html(`<a href="${url}">${url}</a>`)
+}
+
+function generateLink() {
+    var paths = []
+
+    $("#inputs .message").each(function() {
+        paths.push(generateEncodedWAPath(this))
+    })
+
+    showLink(selfEp + '?q=' + paths.reverse().join(','))
 }
 
 function textareaEnter() {
@@ -91,5 +69,3 @@ function textareaEnter() {
     }
     return false
 }
-
-document.getElementById("form").onsubmit = generate
