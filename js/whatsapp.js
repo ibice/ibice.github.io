@@ -56,16 +56,3 @@ function generateLink() {
 
     showLink(selfEp + '?q=' + paths.reverse().join(','))
 }
-
-function textareaEnter() {
-    if (window.event.keyCode == 13) {
-        var convo = document.getElementById("convo")
-          , i = convo.selectionStart
-
-        convo.value =  convo.value.substring(0, i) + "\n" + convo.value.substring(i)
-        convo.selectionStart = i + 1
-        convo.selectionEnd = i + 1
-
-    }
-    return false
-}

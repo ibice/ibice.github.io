@@ -1,56 +1,11 @@
 <html>
     <head>
-        <!-- Hi -->
-        <title>WhatsApp chat generator</title>
-
-        <script src="js/redirect.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-        <script src="js/whatsapp.js"></script>
-
-        <link rel="stylesheet" href="css/whatsapp.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&display=swap"> 
+        <meta http-equiv="refresh" content="7; url='wcg.html'" />
     </head>
-
-    <body onload="initBody()" onkeypress="return event.keyCode!=13">
-
-        <h1>WhatsApp chat generator</h1>
-
-        <div id="counter">
-            <img src="https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fcarpioldc.github.io" alt="Hits">
-        </div>
-
-        <div id="overview">
-            <h2>Overview</h2>                
-            <p>
-                Phones must include the country prefix. Valid examples are:
-                <ul>
-                <li>34602345123</li>
-                <li>+34 602 345 123</li>
-                </ul>
-            </p>
-        </div>
-
-        <div id="input">
-            <h2>Messages</h2>
-
-            <form id="form" onsubmit="generateLink()" action="javascript:void(0);">
-                <div id="inputs"></div>
-                <br>
-                <button onclick="newMessageInput()">+</button>
-                <button onclick="rmMessageInput()">-</button>
-                <input type="submit" value="Create link">
-            </form>
-        </div>
-
-        <br>
-        <hr>
-
-        <div id="result" style="display: none"></div>
-            <h2>Result</h2>
-            <br>
-            <div id="resultLink"></div>
-        </div>
-        <footer>This website was made ugly by Jorge Carpio &lt;carpioldc@gmail.com&gt;</footer>
+    <body>
+        <p>Please follow <a href="wcg.html">this link</a>.</p>
     </body>
+    <script>
+        window.location = "wcg.html"
+    </script>
 </html>

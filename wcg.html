@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <!-- Hi -->
+        <title>WhatsApp chat generator</title>
+
+        <script src="js/redirect.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="js/whatsapp.js"></script>
+
+        <link rel="stylesheet" href="css/whatsapp.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&display=swap"> 
+    </head>
+
+    <body onload="initBody()">
+
+        <h1>WhatsApp chat generator</h1>
+
+        <div id="counter">
+            <img src="https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fcarpioldc.github.io" alt="Hits">
+        </div>
+
+        <div id="overview">
+            <p>
+                Generate a link that will redirect your friends (if you have them) to a WhatsApp conversation with the recipient,
+                showing the text on their message box. You can chain messages clicking on the Add button. A link leading to the next message will be added to each
+                message text. I know it's not clear but what the hell just try it.
+            </p>
+
+            <p>
+                The messages will be sent in order from top to down.
+            </p>
+        </div>
+
+        <div id="input">
+            <form id="form" onsubmit="generateLink()" action="javascript:void(0);">
+                <div id="inputs"></div>
+
+                <input type="submit" value="Create link">
+
+                <button onclick="newMessageInput()">Add</button>
+                <button onclick="rmMessageInput()">Remove</button>
+            </form>
+        </div>
+
+        <div id="result" style="display: none"></div>
+            <div id="resultLink"></div>
+        </div>
+
+        <footer>This website was made ugly by Jorge Carpio &lt;carpioldc@gmail.com&gt;</footer>
+    </body>
+</html>
