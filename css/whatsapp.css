@@ -1,9 +1,21 @@
-html {
+body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #c0c2ce;
-    padding: 0 25%;
-    width: 50%;
     font-size: 1.2em;
+    padding: 1em;
+    min-height: 100%;
+}
+
+@media screen and (min-width: 1080px) {
+    body {
+        margin: 0 25%;
+        width: 50%;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
 }
 
 h1 {
@@ -17,7 +29,7 @@ h1 {
 form {
     border-radius: 0.4em;
     padding: 1em;
-    margin: 2em 0 3em 0;
+    margin: 3em 0 3em 0;
     box-shadow: 0 1em 3em #fe667b;
 }
 
