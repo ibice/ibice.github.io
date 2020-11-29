@@ -6,22 +6,10 @@ body {
     min-height: 100%;
 }
 
-@media screen and (min-width: 1080px) {
-    body {
-        margin: 0 25%;
-        width: 50%;
-        font-size: 1em;
-    }
-
-    h1 {
-        font-size: 3em;
-    }
-}
-
 h1 {
     font-family: 'Amatic SC', cursive;
     color:  #fe667b;
-    font-size: 5em;
+    font-size: 3em;
     width: 100%;
     text-align: center;
 }
@@ -29,7 +17,7 @@ h1 {
 form {
     border-radius: 0.4em;
     padding: 1em;
-    margin: 3em 0 3em 0;
+    margin: 2em 0 3em 0;
     box-shadow: 0 1em 3em #fe667b;
 }
 
@@ -66,6 +54,7 @@ footer {
   background-color:  #fe667b;
   text-align: center;
   padding: 0.5em 0;
+  display: none;
 }
 
 .phone input, .text input {
@@ -75,4 +64,20 @@ footer {
 button {
   background-color:  #fe667b;
   padding: 4px;
+}
+
+@media screen and (min-width: 1080px) {
+    body {
+        margin: 0 25%;
+        width: 50%;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    footer {
+        display: block;
+    }
 }

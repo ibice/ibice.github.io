@@ -4,7 +4,7 @@ var encode = (p, t) => btoa(`${p}|${t}`)
 
 function normalizePhone(phone) {
     if (phone !== undefined && phone !== "") {
-        if (phone[0] != 3) {
+        if (phone[0] != 3 && phone[0] != '+') {
             phone = "34" + phone // Defaults to Spain
         }
         return phone.replace(/[\+ \s]/g, '')
@@ -49,7 +49,7 @@ function showLink(url) {
 
     console.log("Showing url: " + url)
     $("#result").show()
-    $("#resultLink").html(`<a href="${url}">${url}</a>`)
+    $("#resultLink").html(`<a href="${url}">Link</a>`)
 }
 
 function generateLink() {
