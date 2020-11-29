@@ -21,23 +21,27 @@
         </div>
 
         <div id="overview">
-            <p>
-                Generate a link that will redirect your friends (if you have them) to a WhatsApp conversation with the recipient,
-                showing the text on their message box. You can chain messages clicking on the Add button. A link leading to the next message will be added to each
-                message text. I know it's not clear but what the hell just try it.
-            </p>
-
-            <p>
-                The messages will be sent in order from top to down.
-            </p>
+            <ul>
+                <li>
+                    Generate a link that will redirect your friends (if you have them) to a WhatsApp conversation with the recipient, showing the text on their message box.
+                </li>
+                <li>
+                    You can <strong>chain messages</strong> clicking on the Add button. A link leading to the next message will be added to each message text. 
+                </li>
+                <li>
+                    I know you didn't understand a shit but what the hell just try it.
+                </li>
+                <li>
+                    The messages will be sent in top-down order.
+                </li>
+            </ul>
         </div>
 
         <div id="input">
-            <form id="form" onsubmit="generateLink()" action="javascript:void(0);">
+            <form id="form" action="javascript:void(0);">
                 <div id="inputs"></div>
 
-                <input type="submit" value="Create link">
-
+                <button onclick="generateLink()">Create link</button>
                 <button onclick="newMessageInput()">Add</button>
                 <button onclick="rmMessageInput()">Remove</button>
             </form>
@@ -47,6 +51,6 @@
             <div id="resultLink"></div>
         </div>
 
-        <footer>This website was made ugly by Jorge Carpio &lt;carpioldc@gmail.com&gt;</footer>
+        <footer>This site is ugly and we know it.</footer>
     </body>
 </html>

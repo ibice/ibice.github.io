@@ -3,7 +3,7 @@
 var encode = (p, t) => btoa(`${p}|${t}`)
 
 function normalizePhone(phone) {
-    if (phone !== undefined) {
+    if (phone !== undefined && phone !== "") {
         if (phone[0] != 3) {
             phone = "34" + phone // Defaults to Spain
         }
@@ -36,6 +36,11 @@ function rmMessageInput() {
 function generateEncodedWAPath(e) {
     var phone = $(e).find(".phone input").val()
       , text  = $(e).find(".text input").val()
+
+    if (phone === "") {
+        alert("Empty phone")
+        throw "Empty phone"
+    }
     return encode(normalizePhone(phone), text)
 }
 

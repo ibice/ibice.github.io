@@ -12,7 +12,7 @@ if (params.has('q')) {
       , els = decode(messages.pop())
       , waURL = genWALink(els[0], els[1])
 
-    if (messages.length > 0) waURL += selfEp + '?q=' + messages.join(',')
+    if (messages.length > 0) waURL += ' (' + selfEp + '?q=' + messages.join(',') + ')'
 
     console.log('Redirecting client to ' + waURL)
     window.location.href = waURL

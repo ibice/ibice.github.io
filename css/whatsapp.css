@@ -1,9 +1,66 @@
 html {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #c0c2ce;
+    padding: 0 25%;
+    width: 50%;
+    font-size: 1.2em;
 }
+
 h1 {
     font-family: 'Amatic SC', cursive;
     color:  #fe667b;
     font-size: 5em;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    border-radius: 0.4em;
+    padding: 1em;
+    margin: 2em 0 3em 0;
+    box-shadow: 0 1em 3em #fe667b;
+}
+
+.message {
+    margin: 0 0 1em 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+}
+
+.phone {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.text {
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+
+#counter {
+    position: fixed;
+    right: 1em;
+    bottom: 0;
+    z-index: 10;
+    padding: 0.5em 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  #fe667b;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+.phone input, .text input {
+    width: 100%;
+}
+
+button {
+  background-color:  #fe667b;
+  padding: 4px;
 }
