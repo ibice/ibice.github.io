@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Resume"
 date: 2021-12-12T21:14:51+01:00
 draft: false
 layout: single
