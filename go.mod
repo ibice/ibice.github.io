@@ -1,4 +1,4 @@
-module github.com/carpioldc/carpioldc.github.io
+module github.com/ibice/ibice.github.io
 
 go 1.17
 
