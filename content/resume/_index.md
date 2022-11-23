@@ -5,7 +5,7 @@ draft: false
 layout: single
 ---
 
-![RFCAS](http://rfcas.eps.uam.es/web/sites/all/themes/clean_theme/images/slide-image-1.jpg)
+![RFCAS](/img/rfcas.jpg)
 
 ## Work
 
