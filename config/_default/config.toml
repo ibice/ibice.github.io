@@ -16,7 +16,7 @@ summaryLength = 0
 
 [author]
 name = "Jorge Carpio"
-image = "img/author.jpg"
+image = "img/author.png"
 bio = "Infrastructure Software Engineer"
 links = [
     { email = "mailto:carpioldc@gmail.com" },
