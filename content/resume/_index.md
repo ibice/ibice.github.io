@@ -9,7 +9,7 @@ layout: single
 
 ## Work
 
-- **Service Reliability Engineer** @ Kyndryl (from April 2021 until now): platform engineering of containerized ecosystem and software development.
+- **Site Reliability Engineer** @ Kyndryl (from April 2021 until now): platform engineering of containerized ecosystem and software development.
 - **DevOps Engineer** @ IBM (July 2019 - April 2021): administration of Kubernetes, OpenShift and OSS products. Software development.
 - **Network Engineer** @ IBM (June 2018 - July 2019) Infrastructure automation with Ansible and Python.
 - **Technical Sales Intern of Analytics Products** @ IBM (September 2017 - June 2018): technical sales of IBM data governance products. Web development for GDPR regulation.
@@ -35,4 +35,4 @@ layout: single
 
 - Spanish: mother tonge.
 - English: C1 certified by Cambridge University.
-- Italian: I lived one year in Milano with italian people. 
+- Italian: I lived one year in Milano, with italian people, eating italian food.

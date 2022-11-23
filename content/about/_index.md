@@ -7,4 +7,9 @@ layout: single
 
 ![My](/img/mountains.jpg)
 
-[history of my life here]
+As a young music lover with ease for calculus, I wanted to be a Sound Engineer.
+Then the arts of Digital Signal Processing captivated me... and here I am, a
+passionate Software Engineer! Of course, I still play the guitar when my rock
+climber fingers let me.
+
+Once I `rm --rf --no-preserve-root /`'ed my computer.
