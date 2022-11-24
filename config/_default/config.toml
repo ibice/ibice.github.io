@@ -17,8 +17,8 @@ summaryLength = 0
 [author]
 name = "Jorge Carpio"
 image = "author.png"
-headline = "Infrastructure Software Engineer"
-bio = "Passionate about enabling people to cooperate in the software world"
+# headline = ""
+# bio = ""
 links = [
     { email = "mailto:carpioldc@gmail.com" },
     #   { link = "https://link-to-some-website.com/" },
