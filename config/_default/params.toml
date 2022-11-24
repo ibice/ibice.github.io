@@ -6,22 +6,27 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 colorScheme = "fire"
-darkMode = "auto"
-darkToggle = true
-# logo = "img/logo.jpg"
-# description = "My awesome website"
-# mainSections = ["section1", "section2"]
-# robots = ""
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+
+[header]
+  layout = "basic"
+
+[footer]
+  showAppearanceSwitcher = true
+  showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, custom
+  layout = "profile"
   showRecent = false
 
 [article]
-  showDate = false
+  showDate = true
   dateFormat = "2 January 2006"
   showAuthor = false
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -29,7 +34,9 @@ darkToggle = true
   showHeadingAnchors = true
   showPagination = true
   showReadingTime = false
-  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+  showTableOfContents = false
+  showWordCount = true
+  sharingLinks = ["facebook", "twitter", "reddit", "linkedin", "email"]
 
 [list]
   showBreadcrumbs = false

@@ -1,5 +1,7 @@
 module github.com/ibice/ibice.github.io
 
-go 1.17
+go 1.19
 
-require github.com/jpanther/congo v1.6.4 // indirect
+require (
+	github.com/jpanther/congo/v2 v2.4.2 // indirect
+)
