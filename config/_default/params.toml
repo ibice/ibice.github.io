@@ -47,7 +47,7 @@ darkToggle = true
   # domain = "llama.yoursite.com"
 
 [verification]
-  # google = ""
+  google = "google70d552ca4613c151.html"
   # bing = ""
   # pinterest = ""
   # yandex = ""
