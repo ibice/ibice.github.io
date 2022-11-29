@@ -1,11 +1,13 @@
 ---
 title: "About me"
 date: 2021-12-12T21:43:53+01:00
+lastmod: 2022-11-29T13:27:53+01:00
 draft: false
-layout: single
+showDate: false
+showReadingTime: false
+showDateUpdated: true
+sharingLinks: false
 ---
-
-![My](/img/mountains.jpg)
 
 As a young music lover with ease for calculus, I wanted to be a Sound Engineer.
 Then the arts of Digital Signal Processing captivated me... and here I am, a

@@ -5,5 +5,4 @@ draft: false
 ---
 
 Hi :wave: I'm Jorge, an infrastructure Software Engineer.
-
 On my free time I climb :snow_capped_mountain: and play music.

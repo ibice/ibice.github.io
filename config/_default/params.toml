@@ -33,14 +33,15 @@ enableCodeCopy = true
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
-  showReadingTime = false
-  showTableOfContents = false
+  showDateUpdated = true
+  showReadingTime = true
+  showTableOfContents = true
   showWordCount = true
   sharingLinks = ["facebook", "twitter", "reddit", "linkedin", "email"]
 
 [list]
-  showBreadcrumbs = false
-  showSummary = false
+  showBreadcrumbs = true
+  showSummary = true
   groupByYear = false
 
 [taxonomy]
