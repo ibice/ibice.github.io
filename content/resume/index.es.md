@@ -23,14 +23,14 @@ Echa un vistazo a mi [perfil de LinkedIn](https://linkedin.com/in/jorge-carpio) 
 
 ## Certificaciones
 
-| Fecha     | Certificación                                                                                                                                                                                                                                              |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Nov 2021  | {{< icon "aws" >}}  [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/aca8d1b0-c794-4375-b586-002bd7be5390/public_url )                                                                                               |
-| Nov 2021  | {{< icon "aws" >}}  [AWS Certified Cloud Practitioner](https://www.credly.com/badges/60dd1695-0710-448e-b997-fed0b7b031d0/public_url)                                                                                                             |
-| Nov 2020  | {{< icon "redhat" >}} [Red Hat Certified Specialist in OpenShift Administration](https://rhtapps.redhat.com/certifications/badge/verify/V3ROP6CBWORM544LPSFRNC27WAAEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=) |
-| Feb 2020  | {{< icon "redhat" >}} [Red Hat Certified Engineer (Ansible)](https://www.redhat.com/rhtapps/services/certifications/badge/verify/V3ROP6CBWORM544LPSFRNC27WAAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=)        |
-| Ene 2020  | {{< icon "k8s" >}} [Certified Kubernetes Administrator](https://www.credly.com/badges/7ebce09d-e720-4ef7-8837-dd2608b48e33/public_url)                                                                                                            |
-| Oct 2019  | {{< icon "redhat" >}} [Red Hat Certified System Administrator](https://www.redhat.com/rhtapps/services/certifications/badge/verify/V3ROP6CBWORM544LPSFRNC27WAAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=)      |
+| Fecha    | Certificación                                                                                                                                                                                                                                     |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nov 2021 | [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/aca8d1b0-c794-4375-b586-002bd7be5390/public_url ) {{< icon "aws" >}}                                                                                                |
+| Nov 2021 | [AWS Certified Cloud Practitioner](https://www.credly.com/badges/60dd1695-0710-448e-b997-fed0b7b031d0/public_url) {{< icon "aws" >}}                                                                                                              |
+| Nov 2020 | [Red Hat Certified Specialist in OpenShift Administration](https://rhtapps.redhat.com/certifications/badge/verify/V3ROP6CBWORM544LPSFRNC27WAAEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=) {{< icon "redhat" >}} |
+| Feb 2020 | [Red Hat Certified Engineer (Ansible)](https://www.redhat.com/rhtapps/services/certifications/badge/verify/V3ROP6CBWORM544LPSFRNC27WAAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=) {{< icon "redhat" >}}        |
+| Ene 2020 | [Certified Kubernetes Administrator](https://www.credly.com/badges/7ebce09d-e720-4ef7-8837-dd2608b48e33/public_url) {{< icon "k8s" >}}                                                                                                            |
+| Oct 2019 | [Red Hat Certified System Administrator](https://www.redhat.com/rhtapps/services/certifications/badge/verify/V3ROP6CBWORM544LPSFRNC27WAAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=) {{< icon "redhat" >}}      |
 
 ## Estudios universitarios
 
