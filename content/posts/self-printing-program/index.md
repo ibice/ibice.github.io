@@ -2,7 +2,9 @@
 title: "A program that prints itself"
 date: 2022-11-23T17:53:00+01:00
 draft: false
-summary: "How do computer programs look?"
+summary: "What happens if you convert executable files into images?"
+showTaxonomies: true
+tags: [software, image processing]
 ---
 
 I once wrote a program that printed itself. How did I do it? I don't remember,
