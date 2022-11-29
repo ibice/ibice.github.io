@@ -32,9 +32,6 @@ You can check my [LinkedIn profile](https://linkedin.com/in/jorge-carpio) out to
 | Jan 2020 | {{< icon "k8s" >}} [Certified Kubernetes Administrator](https://www.credly.com/badges/7ebce09d-e720-4ef7-8837-dd2608b48e33/public_url)                                                                                                            |
 | Oct 2019 | {{< icon "redhat" >}} [Red Hat Certified System Administrator](https://www.redhat.com/rhtapps/services/certifications/badge/verify/V3ROP6CBWORM544LPSFRNC27WAAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=)      |
 
-
-
-
 ## University studies
 
 ![RFCAS](/img/rfcas.jpg)

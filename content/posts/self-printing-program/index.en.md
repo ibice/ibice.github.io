@@ -7,6 +7,11 @@ showTaxonomies: true
 tags: [software, image processing]
 ---
 
+{{< alert >}}
+Under construction.
+{{< /alert >}}
+
+
 I once wrote a program that printed itself. How did I do it? I don't remember,
 the code is on my other computer. I promise to upload it here and make a better
 post!
