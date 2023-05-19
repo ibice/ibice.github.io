@@ -2,7 +2,7 @@
 title: "Sobre mí"
 date: 2021-12-12T21:43:53+01:00
 lastmod: 2022-11-29T13:27:53+01:00
-draft: false
+draft: true
 showDate: false
 showReadingTime: false
 showDateUpdated: true
