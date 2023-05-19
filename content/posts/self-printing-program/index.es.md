@@ -11,6 +11,6 @@ tags: [software, image processing]
 Este post está en construcción.
 {{< /alert >}}
 
-Hace un tiempo escribí un programita que se imprimía a sí mismo. Echa un ojo
+Hace un tiempo escribí un programa que se imprimía a sí mismo. Echa un ojo
 al [código](https://github.com/ibice/go-print-file) mientras se me ocurre
-qué escribir aquí.
+qué escribir aquí 😉.

@@ -8,13 +8,10 @@ tags: [software, image processing]
 ---
 
 {{< alert >}}
-Under construction.
+This post is under construction.
 {{< /alert >}}
 
 
-I once wrote a program that printed itself. How did I do it? I don't remember,
-the code is on my other computer. I promise to upload it here and make a better
-post!
-
-> Update: I found the code! I took the liberty of cleaning it up a bit and adding
-a couple of features. You can find the code [here](https://github.com/ibice/go-print-file).
+Some time ago, I wrote a program that printed itself. You can take a look at
+the [code](https://github.com/ibice/go-print-file) while I think about what
+to write here 😉.

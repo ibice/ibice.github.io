@@ -5,14 +5,14 @@ htmlCode = "en"
 weight = 1
 rtl = false
 title = "Jorge Carpio"
-description = ""
+description = "Jorge Carpio's personal website"
 dateFormat = "2006 Jan 2"
 
 [author]
     name = "Jorge Carpio"
     image = "img/author.jpg"
-    headline = "Music, nature and code"
-    bio = "Infra Software Engineer. I love nature and music"
+    headline = "Platform Engineer"
+    bio = "I ♥ code, nature and music"
     links = [
         { email = "mailto:carpioldc@gmail.com" },
         #   { link = "https://link-to-some-website.com/" },
@@ -23,7 +23,7 @@ dateFormat = "2006 Jan 2"
         #   { facebook = "https://facebook.com/username" },
         #   { foursquare = "https://foursquare.com/username" },
         { github = "https://github.com/ibice" },
-        { gitlab = "https://gitlab.com/carpioldc" },
+        #   { gitlab = "https://gitlab.com/carpioldc" },
         #   { instagram = "https://instagram.com/username" },
         #   { keybase = "https://keybase.io/username" },
         #   { lastfm = "https://lastfm.com/user/username" },
