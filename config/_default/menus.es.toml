@@ -15,10 +15,10 @@
 #   pageRef = "about"
 #   weight = 10
 
-[[main]]
-  name = "Currículum"
-  pageRef = "resume"
-  weight = 15
+# [[main]]
+#   name = "Currículum"
+#   pageRef = "resume"
+#   weight = 15
 
 [[main]]
   name = "Posts"
