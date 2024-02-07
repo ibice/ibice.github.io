@@ -1,8 +1,9 @@
-title = "Jorge Carpio"
+title = "Jorge Carpio's blog"
 languageCode = "en"
 languageName = "English"
 languageDirection = "ltr"
 weight = 1
+disabled = false
 
 [params]
   dateFormat = "2 January 2006"
