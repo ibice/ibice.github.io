@@ -1,7 +1,14 @@
+.max-w-7xl {
+  /* Originally 80rem*/
+  max-width: 75rem;
+}
+
 .max-w-prose {
-  max-width: 91ch;
+  /* Originally 60ch */
+  max-width: 75rem;
 }
 
 .prose {
-  max-width: 91ch;
+  /* Originally 60ch */
+  max-width: 75rem;
 }
